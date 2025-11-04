@@ -23,19 +23,13 @@ fun obrabotka (input: String): String {
             if (count > 1) {
                 result.append(count)
             }
-
             currentChar = input[i]
             count = 1
         }
     }
-
         result.append(currentChar)
         if (count > 1) {
             result.append(count)
-
-
-
     }
-
     return result.toString()
 }
